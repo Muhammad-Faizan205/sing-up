@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mood{
+    margin-top: 2em;
+    margin-bottom:2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainborder{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+    background-color: bisque;
+    box-shadow:  0 3px 6px 0 black, inset 0 -1px 0 0 #dadce0;;
+
+}
+
+.mainborder2{
+    margin-top: 13%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+    background-color: bisque;
+    box-shadow:  0 3px 6px 0 black, inset 0 -1px 0 0 #dadce0;;
+
+}
+
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 26%;
+    height:30px ;
+    border-color: black;
+    padding-left: 3px;
+}
+
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+/* ************** Media quriz **************** */
+
+@media only screen and (max-width : 500px){
+    input{
+        width: 34%;
+        height:25px ;
+    }
+    
+}
+
+
+
+@media only screen and (max-width : 428px){
+    input{
+        width: 38%;
+        height:25px ;
+    }
+}
+
+
+
+@media only screen and (max-width : 304px){
+    input{
+        width: 60%;
+        height:25px ;
+    }
+}
+
+
